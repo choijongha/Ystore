@@ -1,0 +1,39 @@
+.home_titlec {
+    display: flex;
+    justify-content: center;
+}
+.home_list {
+    position:absolute;
+    border: 1px solid;
+    width: 100px;
+}
+.home_body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.home_body-bestfood {
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    position: relative;
+    
+}
+.home_body-bestfood-img {
+    width: 100%;
+    height: 100%;
+}
+.home_body-bestfood-list {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-between;
+}
+.home_body-newfood {
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+}
